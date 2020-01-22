@@ -63,7 +63,8 @@ class AppComponent {
         renderer.toneMappingExposure = 1.6; // Brightness, 1 default.
         // Loader for GLTF - Web hosted files or Web hosted project files ONLY
         // loader.load('http://localhost:4200/assets/models/rpg_reptile_mage/scene.gltf', (gltf) => {
-        loader.load('http://localhost:4200/assets/models/blend_blockmansign/scene.gltf', (gltf) => {
+        // loader.load('http://localhost:4200/assets/models/blend_blockmansign/scene.gltf', (gltf) => {
+        loader.load('https://azland.github.io/Nazzleberry/assets/models/blend_blockmansign/scene.gltf', (gltf) => {
             // loader.load('http://localhost:4200/assets/models/blend_lowpoly_snake/LowPolSnakeGLTF.gltf', (gltf) => {
             const model = gltf.scene || gltf.scenes[0];
             // Centering test
